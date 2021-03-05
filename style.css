@@ -1,0 +1,200 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+body{background-color: rgb(87, 138, 196);} 
+
+.square{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(224, 216, 104);
+    top: 100px;
+    left: 300px;
+}
+
+.square2{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(87, 138, 196);
+    top: 140px;
+    left: 500px;
+    border-radius: 20px;
+}
+
+.square3{
+    width: 450px;
+    height: 20px;
+    background-color: rgb(87, 138, 196);
+    top: 170px;
+    left: 420px;
+    border-radius: 20px;
+}
+
+.square4{
+    width: 450px;
+    height: 20px;
+    background-color: rgb(87, 138, 196);
+    top: 210px;
+    left: 420px;
+    border-radius: 20px;
+}
+
+.square5{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(87, 138, 196);
+    top: 240px;
+    left: 500px;
+    border-radius: 20px;
+}
+    
+.circle{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(77, 148, 138);
+    top: 150px;
+    left: 330px; 
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(46,120,140,1) 0%, rgba(99,214,200,1) 100%);
+    animation: rotate-circle 1s infinite alternate;
+}
+
+.circle2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(77, 148, 138);
+    top: 150px;
+    left: 900px; 
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(99,214,200,1) 0%, rgba(99,214,200,1) 0%, rgba(46,120,140,1) 100%, rgba(99,214,200,1) 100%);
+    animation: rotate-circle2 1s infinite alternate;
+}
+
+.lilsquare{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 130px;
+    left: 400px;
+    border-radius: 20px;
+    transform: rotate(45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare1{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 130px;
+    left: 320px;
+    border-radius: 20px;
+    transform: rotate(-45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare2{ 
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 230px;
+    left: 320px;
+    border-radius: 20px;
+    transform: rotate(45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare3{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 230px;
+    left: 400px;
+    border-radius: 20px;
+    transform: rotate(-45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare4{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 130px;
+    left: 890px;
+    border-radius: 20px;
+    transform: rotate(-45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare5{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 130px;
+    left: 970px;
+    border-radius: 20px;
+    transform: rotate(45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare6{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 230px;
+    left: 970px;
+    border-radius: 20px;
+    transform: rotate(-45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+.lilsquare7{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(237, 237, 238);
+    top: 230px;
+    left: 900px;
+    border-radius: 20px;
+    transform: rotate(45deg) scale(0.5, 2);
+    -webkit-box-shadow: 11px -2px 15px 0px #000000; 
+box-shadow: 11px -2px 15px 0px #000000;
+}
+
+@keyframes rotate-circle{ 
+    from{
+        transform:rotate(0deg)
+    }to{
+        transform:rotate(360deg)
+    }
+}
+
+
+
+@keyframes rotate-circle2{ 
+    from{
+        transform:rotate(0deg)
+    }to{
+        transform:rotate(360deg)
+    }
+}
+
+@keyframes blur {
+    from{
+filter: blur(1px);
+    } to {
+fill: blur(20px);
+    }
+}
